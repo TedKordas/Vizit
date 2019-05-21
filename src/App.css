@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+header {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'poppins';
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login {
+  position: relative;
+  top: 50px;
+}
+
+.signup-form {
+  padding: 0px 80px 36px 55px;
+  border-style: solid;
+  border-color: hotpink;
+}
+
+.main {
+  position: relative;
+}
+
+.container {
+  margin-top: 120px;
+  margin-bottom: 70px;
+  width: 1123px;
+  padding-top: 135px;
+  padding-bottom: 115px;
+}
+
+p {
+  margin-bottom: 32px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+input {
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebebeb;
+  background: transparent;
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'poppins';
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.form-group {
+  margin-bottom: 23px;
+}
+
+.logo {
+  margin-right: 1186px;
+  margin-bottom: 150px;
+}
+
