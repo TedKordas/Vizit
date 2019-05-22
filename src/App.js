@@ -15,6 +15,7 @@ var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
 function App() {
   return (
     <div className="App">
+    <img src={Vizit} height="200px;" width="200px;" class="logo" align="left"></img>
       <header className="App-header">
         <div class="main">
           <div class="signup-content">
@@ -31,12 +32,11 @@ function App() {
                 <input type="text" class="form-imput" name="password" id="password" placeholder="Password"></input>
               </div>
               <div class="form-group">
-                <input type="text" class="form-input" name="confrim-password" id="confirm-password" placeholder="Confrim Password"></input>
+                <input type="text" class="form-input" name="confrim-password" id="confirm-password" placeholder="Confirm Password"></input>
               </div>
             </form>
           </div>
         </div>
-        <img src={Vizit} height="250px;" width="250px;" class="logo" align="left"></img>
       </header>
     </div>
   );
