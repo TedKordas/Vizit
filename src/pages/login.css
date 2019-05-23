@@ -84,3 +84,26 @@ input {
   margin-bottom: 0px;
 }
 
+.navBar {
+  background-color: hotpink;
+  overflow: hidden;
+}
+
+.navBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navBar a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.navBar a.active {
+  background-color: black;
+  color: white;
+}

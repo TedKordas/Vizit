@@ -10,7 +10,10 @@ function login() {
     <img src={Vizit} height="200px;" width="200px;" class="logo" align="left" alt="Vizit"></img>
 
     <div class="navBar">
-      
+      <a class="active" href="#home">Login</a>
+      <a href="#terms">Terms and conditions</a>
+      <a href="#why">Why Vizit?</a>
+      <a href="#ted">About Ted</a>
     </div>
 
       <header className="App-header">
