@@ -1,6 +1,9 @@
 import React from 'react';
 import './login.css';
+import { Link } from 'react-router-dom';
 import Vizit from '../../pics/Vizit.jpeg';
+import {HashRouter as Router, Route} from 'react-router-dom';
+
 
 
 
@@ -8,13 +11,14 @@ function login() {
   return (
     <div className="App">
     <img src={Vizit} height="200px;" width="200px;" class="logo" align="left" alt="Vizit"></img>
-
-    <div class="navBar">
-      <a class="active" href="#home">Login</a>
-      <link to="/termsConditions"></link><a>Terms and conditions</a>
-      <a href="#why">Why Vizit?</a>
-      <a href="#ted">About Ted</a>
-    </div>
+    <Router>
+      <div class="navBar">
+        <Link to="/"><a>Login</a></Link>
+        <Link to="/termsConditions"><a>Terms and conditions</a></Link>
+        <Link to="/why"><a>Why Vizit?</a></Link>
+        <Link to="/about"><a>About Ted</a></Link>
+      </div>
+    </Router>
 
       <header className="App-header">
         <div class="main">
