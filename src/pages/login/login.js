@@ -1,6 +1,6 @@
 import React from 'react';
 import './login.css';
-import Vizit from '../pics/Vizit.jpeg';
+import Vizit from '../../pics/Vizit.jpeg';
 
 
 
@@ -11,7 +11,7 @@ function login() {
 
     <div class="navBar">
       <a class="active" href="#home">Login</a>
-      <a href="#terms">Terms and conditions</a>
+      <link to="/termsConditions"></link><a>Terms and conditions</a>
       <a href="#why">Why Vizit?</a>
       <a href="#ted">About Ted</a>
     </div>

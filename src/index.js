@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Login from './pages/login';
+import Login from '../src/pages/login/login';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Login />, document.getElementById('root'));
