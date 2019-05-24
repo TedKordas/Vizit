@@ -2,7 +2,7 @@ import React from 'react';
 import './login.css';
 import { Link } from 'react-router-dom';
 import Vizit from '../../pics/Vizit.jpeg';
-import {HashRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 
 
 

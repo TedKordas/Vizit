@@ -4,8 +4,12 @@ import './terms.css';
 
 
 
-function termsConditions() {
-    return(
-        <p>Hello world!</p>
-    )
+class termsConditions extends component {
+    render() {
+        return(
+            <div>
+                <h1>Hello world</h1>
+            </div>
+        )
+    }
 }
