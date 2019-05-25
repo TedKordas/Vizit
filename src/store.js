@@ -1,8 +1,8 @@
 import { createStore, applyMiddleware } from 'redux';
-//import reduxPromiseMiddleware from 'redux-promise-middleware';
+//import promiseMiddleware from 'redux-promise';
 import reducer from './dux/reducer';
 
 export default createStore(
     reducer,
-    //applyMiddleware(reduxPromiseMiddleware())
+    //applyMiddleware(promiseMiddleware())
 );

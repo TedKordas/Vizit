@@ -4,7 +4,7 @@ import './terms.css';
 
 
 
-class termsConditions extends component {
+class termsConditions extends Component {
     render() {
         return(
             <div>
