@@ -100,10 +100,10 @@ input {
 
 .navBar a:hover {
   background-color: pink;
-  color: black;
+  color: white;
 }
 
 .navBar a.active {
-  background-color: black;
+  background-color: pink;
   color: white;
 }
