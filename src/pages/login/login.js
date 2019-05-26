@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
 import './login.css';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Vizit from '../../pics/Vizit.jpeg';
 import {BrowserRouter as Router} from 'react-router-dom';
 
@@ -16,10 +16,10 @@ class login extends Component {
       <img src={Vizit} height="200px;" width="200px;" class="logo" align="left" alt="Vizit"></img>
       <Router>
         <div class="navBar">
-          <NavLink to='/'><a>Login</a></NavLink>
-          <NavLink to='/termsConditions'><a>Terms and conditions</a></NavLink>
-          <NavLink to='/why'><a>Why Vizit?</a></NavLink>
-          <NavLink to='/about'><a>About Ted</a></NavLink>
+          <Link to='/'><a>Login</a></Link>
+          <Link to='/termsConditions'><a>Terms and conditions</a></Link>
+          <Link to='/why'><a>Why Vizit?</a></Link>
+          <Link to='/about'><a>About Ted</a></Link>
         </div>
       </Router>
 
