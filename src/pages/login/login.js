@@ -50,4 +50,10 @@ class login extends Component {
   }
 }
 
-export default login;
+function mapStateToProps(state) {
+  return {
+    
+  }
+}
+
+export default withRouter(connect(mapStateToProps,)(login));

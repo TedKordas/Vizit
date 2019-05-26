@@ -8,9 +8,11 @@ import { Provider } from 'react-redux';
 import store from './store';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <Login />
-    </BrowserRouter>,
+    <Provider store={store}> 
+        <BrowserRouter>
+            <Login />
+        </BrowserRouter>
+    </Provider>,
     document.getElementById('root')
 );
 
