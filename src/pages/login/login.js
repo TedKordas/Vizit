@@ -4,24 +4,26 @@ import { withRouter } from 'react-router';
 import './login.css';
 import { Link } from 'react-router-dom';
 import Vizit from '../../pics/Vizit.jpeg';
-import {BrowserRouter as Router} from 'react-router-dom';
 
 
 
 
 class login extends Component {
+
+  
+
   render() {
     return (
       <div className="App">
       <img src={Vizit} height="200px;" width="200px;" class="logo" align="left" alt="Vizit"></img>
-      <Router>
+      
         <div class="navBar">
-          <Link to='/'><a>Login</a></Link>
-          <Link to='/termsConditions'><a>Terms and conditions</a></Link>
-          <Link to='/why'><a>Why Vizit?</a></Link>
-          <Link to='/about'><a>About Ted</a></Link>
+          <Link href='/' onClick={"/"}><a>Login</a></Link>
+          <Link href='/termsConditions' onClick={"/termsConditions"}><a>Terms and conditions</a></Link>
+          <Link href='/why' onClick={"/why"}><a>Why Vizit?</a></Link>
+          <Link href='/about' onClick={"/about"}><a>About Ted</a></Link>
         </div>
-      </Router>
+      
 
         <header className="App-header">
           <div class="main">
@@ -52,7 +54,7 @@ class login extends Component {
 
 function mapStateToProps(state) {
   return {
-    
+
   }
 }
 

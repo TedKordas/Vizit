@@ -8,15 +8,12 @@ import About from './pages/About/about.js';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 export default(
-    <BrowserRouter>
+    <Router>
         <div>
-            <NavBar />
-            <Switch>
-                <Route component={Login} exact path='/' />
-                <Route component={Terms} path='/termsConditions' />
-                <Route component={Why} path='/why' />
-                <Route component={About} path='/about' />
-            </Switch>
+            <Route component={Login} exact path='/' />
+            <Route component={Terms} path='/termsConditions' />
+            <Route component={Why} path='/why' />
+            <Route component={About} path='/about' />
         </div>
-    </BrowserRouter>
+    </Router>
 )
