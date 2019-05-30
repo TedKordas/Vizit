@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { withRouter } from 'react-router';
+// import { connect } from 'react-redux';
+// import { withRouter } from 'react-router';
 import './login.css';
 import { Link } from 'react-router-dom';
 import Vizit from '../../pics/Vizit.jpeg';
@@ -8,7 +8,7 @@ import Vizit from '../../pics/Vizit.jpeg';
 
 
 
-class login extends Component {
+class Login extends Component {
 
   
 
@@ -18,10 +18,10 @@ class login extends Component {
       <img src={Vizit} height="200px;" width="200px;" class="logo" align="left" alt="Vizit"></img>
       
         <div class="navBar">
-          <Link href='/' onClick={"/"}><a>Login</a></Link>
-          <Link href='/termsConditions' onClick={"/termsConditions"}><a>Terms and conditions</a></Link>
-          <Link href='/why' onClick={"/why"}><a>Why Vizit?</a></Link>
-          <Link href='/about' onClick={"/about"}><a>About Ted</a></Link>
+          <Link to='/'><a>Login</a></Link>
+          <Link to='/termsConditions'><a>Terms and conditions</a></Link>
+          <Link to='/why'><a>Why Vizit?</a></Link>
+          <Link to='/about'><a>About Ted</a></Link>
         </div>
       
 
@@ -52,10 +52,6 @@ class login extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return {
 
-  }
-}
 
-export default withRouter(connect(mapStateToProps,)(login));
+export default Login;
