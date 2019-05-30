@@ -5,7 +5,21 @@ import './login.css';
 import { Link } from 'react-router-dom';
 import Vizit from '../../pics/Vizit.jpeg';
 
-
+const routes = [
+  {
+    path: "/",
+    exact: true,
+  },
+  {
+    path: "/termsConditions",
+  },
+  {
+    path: "/about",
+  },
+  {
+    path: "/why"
+  }
+];
 
 
 class Login extends Component {
