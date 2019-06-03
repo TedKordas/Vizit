@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 // import { connect } from 'react-redux';
 // import { withRouter } from 'react-router';
 import './login.css';
-import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
+import { Route, Link, BrowserRouter} from 'react-router-dom';
 import router from '../../router';
 import Vizit from '../../pics/Vizit.jpeg';
+import termsConditions from '../Terms/termsConditions.js';
+import Why from '../Why/why.js';
+import About from '../About/about.js';
 
 
 
 class Login extends Component {
 
-  // constructor(props) {
-  //   super(props);
-  //   this.handleSearch = this.handleSearch.bind(this);
-  // }
+  handleClick() {
+    alert('---');
+  }
 
   
 
@@ -21,14 +23,20 @@ class Login extends Component {
     return (
       <div className="App">
       <img src={Vizit} height="200px;" width="200px;" className="logo" align="left" alt="Vizit"></img>
-      
-        <div class="navBar">
-          <Link to='/'><a>Login</a></Link>
-          <Link to='/termsConditions'><a>Terms and conditions</a></Link>
-          <Link to='/why'><a>Why Vizit?</a></Link>
-          <Link to='/about'><a>About Ted</a></Link>
-        </div>
-      
+
+        <BrowserRouter>
+          <div class="navBar">
+            <Link to='/'><a href="/">Login</a></Link>
+            <Link to='/termsConditions'><a>Terms and conditions</a></Link>
+            <Link to='/why'><a>Why Vizit?</a></Link>
+            <Link to='/about'><a>About Ted</a></Link>
+          </div>
+          <div className="content">
+            <Route path="/termsConditions" component={termsConditions}/>
+            <Route path="/why" component={Why}/>
+            <Route path="/about" component={About}/>
+          </div>
+        </BrowserRouter>
 
         <header className="App-header">
           <div class="main">
