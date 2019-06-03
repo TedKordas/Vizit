@@ -14,7 +14,7 @@ class Login extends Component {
   render() {
     return (
       <div className="App">
-      <img src={Vizit} height="200px;" width="200px;" class="logo" align="left" alt="Vizit"></img>
+      <img src={Vizit} height="200px;" width="200px;" className="logo" align="left" alt="Vizit"></img>
       
         <div class="navBar">
           <Link to='/'><a>Login</a></Link>
