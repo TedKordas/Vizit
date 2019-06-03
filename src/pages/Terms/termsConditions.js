@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './terms.css';
 
 
@@ -17,3 +17,5 @@ class termsConditions extends Component {
         )
     }
 }
+
+export default termsConditions;

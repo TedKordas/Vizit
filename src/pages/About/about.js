@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './about.css';
 
 
 
 
-class termsConditions extends Component {
+class about extends Component {
     render() {
         return(
             <div>
@@ -15,3 +15,5 @@ class termsConditions extends Component {
         )
     }
 }
+
+export default about;

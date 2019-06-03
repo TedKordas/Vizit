@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 // import { connect } from 'react-redux';
 // import { withRouter } from 'react-router';
 import './login.css';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
+import router from '../../router';
 import Vizit from '../../pics/Vizit.jpeg';
 
 
 
 class Login extends Component {
+
+  // constructor(props) {
+  //   super(props);
+  //   this.handleSearch = this.handleSearch.bind(this);
+  // }
 
   
 

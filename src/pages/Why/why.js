@@ -1,10 +1,10 @@
-import React from 'react';
-import './terms.css';
+import React, { Component } from 'react';
+import './why.css';
 
 
 
 
-class termsConditions extends Component {
+class why extends Component {
     render() {
         return(
             <div>
@@ -15,3 +15,5 @@ class termsConditions extends Component {
         )
     }
 }
+
+export default why;
