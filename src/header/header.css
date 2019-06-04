@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #282c34;
+  }
+
+  .navBar {
+    background-color: hotpink;
+    overflow: hidden;
+  }
+  
+  .navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navBar a:hover {
+    background-color: pink;
+    color: white;
+  }
+  
+  .navBar a.active {
+    background-color: pink;
+    color: white;
+  }
