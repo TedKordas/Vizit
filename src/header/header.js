@@ -10,7 +10,7 @@ import termsConditions from '../pages/Terms/termsConditions.js';
 import Why from '../pages/Why/why.js';
 import About from '../pages/About/about.js';
 
-class header extends Component {
+class header extends Component  {
     render() {
         return (
             <div className="App">

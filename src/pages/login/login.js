@@ -12,7 +12,7 @@ class Login extends Component {
   render() {
     return (
       <div className="App">
-        {header}
+        <header />
         <header className="App-header">
           <div class="main">
             <div class="signup-content">
